@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="8769" started-at="2023-03-12T04:32:12Z" finished-at="2023-03-12T04:32:21Z">
+  <suite name="Suite" duration-ms="13864" started-at="2023-03-12T06:02:41Z" finished-at="2023-03-12T06:02:55Z">
     <groups>
     </groups>
-    <test name="Submit Order Test" duration-ms="6436" started-at="2023-03-12T04:32:12Z" finished-at="2023-03-12T04:32:19Z">
+    <test name="Submit Order Test" duration-ms="6382" started-at="2023-03-12T06:02:41Z" finished-at="2023-03-12T06:02:47Z">
       <class name="swagLabs.Tests.SubmitOrderTest">
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:swagLabs.Tests.SubmitOrderTest@2c35e847]" name="launchApplication" is-config="true" duration-ms="4816" started-at="2023-03-12T04:32:13Z" finished-at="2023-03-12T04:32:17Z">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:swagLabs.Tests.SubmitOrderTest@2c35e847]" name="launchApplication" is-config="true" duration-ms="4402" started-at="2023-03-12T06:02:41Z" finished-at="2023-03-12T06:02:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="submitOrder(java.util.HashMap)[pri:0, instance:swagLabs.Tests.SubmitOrderTest@2c35e847]" name="submitOrder" duration-ms="1179" started-at="2023-03-12T04:32:17Z" data-provider="getData" finished-at="2023-03-12T04:32:19Z">
+        <test-method status="PASS" signature="submitOrder(java.util.HashMap)[pri:0, instance:swagLabs.Tests.SubmitOrderTest@2c35e847]" name="submitOrder" duration-ms="1501" started-at="2023-03-12T06:02:45Z" data-provider="getData" finished-at="2023-03-12T06:02:47Z">
           <params>
             <param index="0">
               <value>
@@ -22,35 +22,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:swagLabs.Tests.SubmitOrderTest@2c35e847]" name="tearDown" is-config="true" duration-ms="213" started-at="2023-03-12T04:32:19Z" finished-at="2023-03-12T04:32:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:swagLabs.Tests.SubmitOrderTest@2c35e847]" name="tearDown" is-config="true" duration-ms="174" started-at="2023-03-12T06:02:47Z" finished-at="2023-03-12T06:02:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- swagLabs.Tests.SubmitOrderTest -->
     </test> <!-- Submit Order Test -->
-    <test name="Login Error Validation" duration-ms="8769" started-at="2023-03-12T04:32:12Z" finished-at="2023-03-12T04:32:21Z">
+    <test name="Login Error Validation" duration-ms="7010" started-at="2023-03-12T06:02:48Z" finished-at="2023-03-12T06:02:55Z">
       <class name="swagLabs.Tests.ErrorValidationsTest">
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:swagLabs.Tests.ErrorValidationsTest@53ce1329]" name="launchApplication" is-config="true" duration-ms="5028" started-at="2023-03-12T04:32:12Z" finished-at="2023-03-12T04:32:17Z">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:swagLabs.Tests.ErrorValidationsTest@53ce1329]" name="launchApplication" is-config="true" duration-ms="2678" started-at="2023-03-12T06:02:48Z" finished-at="2023-03-12T06:02:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="loginErrorValidation()[pri:0, instance:swagLabs.Tests.ErrorValidationsTest@53ce1329]" name="loginErrorValidation" duration-ms="405" started-at="2023-03-12T04:32:17Z" finished-at="2023-03-12T04:32:18Z">
+        <test-method status="PASS" signature="loginErrorValidation()[pri:0, instance:swagLabs.Tests.ErrorValidationsTest@53ce1329]" name="loginErrorValidation" duration-ms="439" started-at="2023-03-12T06:02:50Z" finished-at="2023-03-12T06:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginErrorValidation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:swagLabs.Tests.ErrorValidationsTest@53ce1329]" name="tearDown" is-config="true" duration-ms="249" started-at="2023-03-12T04:32:18Z" finished-at="2023-03-12T04:32:18Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:swagLabs.Tests.ErrorValidationsTest@53ce1329]" name="tearDown" is-config="true" duration-ms="226" started-at="2023-03-12T06:02:51Z" finished-at="2023-03-12T06:02:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:swagLabs.Tests.ErrorValidationsTest@53ce1329]" name="launchApplication" is-config="true" duration-ms="2206" started-at="2023-03-12T04:32:18Z" finished-at="2023-03-12T04:32:20Z">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:swagLabs.Tests.ErrorValidationsTest@53ce1329]" name="launchApplication" is-config="true" duration-ms="2701" started-at="2023-03-12T06:02:51Z" finished-at="2023-03-12T06:02:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="productErrorValidation()[pri:0, instance:swagLabs.Tests.ErrorValidationsTest@53ce1329]" name="productErrorValidation" duration-ms="590" started-at="2023-03-12T04:32:20Z" finished-at="2023-03-12T04:32:21Z">
+        <test-method status="PASS" signature="productErrorValidation()[pri:0, instance:swagLabs.Tests.ErrorValidationsTest@53ce1329]" name="productErrorValidation" duration-ms="833" started-at="2023-03-12T06:02:54Z" finished-at="2023-03-12T06:02:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productErrorValidation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:swagLabs.Tests.ErrorValidationsTest@53ce1329]" name="tearDown" is-config="true" duration-ms="270" started-at="2023-03-12T04:32:21Z" finished-at="2023-03-12T04:32:21Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:swagLabs.Tests.ErrorValidationsTest@53ce1329]" name="tearDown" is-config="true" duration-ms="126" started-at="2023-03-12T06:02:54Z" finished-at="2023-03-12T06:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
